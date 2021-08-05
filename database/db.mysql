@@ -1,0 +1,8 @@
+CREATE TABLE empregados(
+id int(11) AUTO_INCREMENT,
+nome varchar(250) NOT NULL,
+cargo int(11),
+endereco varchar(1000),
+salario int(),
+PRIMARY KEY (id)
+);
